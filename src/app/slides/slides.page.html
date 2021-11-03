@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Slides</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager="false">
+    <ion-slide style="background-color: rosybrown">Slide 1</ion-slide>
+    <ion-slide style="background-color: cadetblue">Slide 2</ion-slide>
+    <ion-slide style="background-color: peachpuff">Slide 3</ion-slide>
+  </ion-slides>
+</ion-content>
+
+<ion-footer class="ion-no-padding ion-no-border">
+    <ion-toolbar class="ion-no-padding ion-no-border">
+        <ion-row class="idcard_footer ion-no-padding">
+            <ion-col size="3">
+                <ion-button (click)="closeModal()" fill="clear">Flip</ion-button>
+            </ion-col>
+            <ion-col size="3">
+                <ion-button (click)="closeModal()" fill="clear">Order</ion-button>
+            </ion-col>
+            <ion-col size="3">
+                <ion-button (click)="closeModal()"fill="clear">Share</ion-button>
+            </ion-col>
+            <ion-col size="3">
+                <ion-button (click)="closeModal()" fill="clear">Close</ion-button>
+            </ion-col>
+        </ion-row>
+    </ion-toolbar>
+</ion-footer>
