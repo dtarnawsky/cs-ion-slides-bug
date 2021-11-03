@@ -1,3 +1,5 @@
+ISSUE DESCRIPTION:
+
 We are facing an issue with ion-slides after upgrading to ionic 5. We have slides inside a modal and has two actions, one is slide to next or previous with sliding on the screen and the other is on click of an element, we take them to respective slide. For the second action with the click , we are using ionSlides.slideTo(Index) as below.
   ```shell
   async slideToSliderIndex(index: number) {
