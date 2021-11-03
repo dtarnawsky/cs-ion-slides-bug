@@ -18,7 +18,8 @@
 
   <ion-list #menuItems>
     <ion-list-header no-padding>
-      Tap one of the items below to view the corresponding slides page.
+      Tap one of the items below to view the corresponding slides page. <br/>
+      Problem: On the second time around it shows the first slide instead of the selected one.
     </ion-list-header>
     <ion-item (click)="cardClicked(i)" *ngFor="let menuItem of menu; let i = index" no-padding
       detail>

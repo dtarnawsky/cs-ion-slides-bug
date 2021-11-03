@@ -49,6 +49,7 @@ export class HomePage {
         selectedIdCardIndex: index
       }
     });
+    console.log('before present');
     await modal.present();
   }
 
